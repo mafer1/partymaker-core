@@ -1,9 +1,4 @@
-import biblioteka.Calendar;
-import model.Thing;
-import model.User;
-
-import java.util.ArrayList;
-import java.util.List;
+import library.Calendar;
 
 public class Main
 {
@@ -41,7 +36,7 @@ public class Main
 
         //c.changeUserName(12, "Enriccoa");
         //c.changeUserSurname(12, "Palllazzoa");
-        //c.findUserByID(12);
+        c.findUserByID(18);
 
         c.closeConnection();
 
